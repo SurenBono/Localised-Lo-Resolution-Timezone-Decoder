@@ -1,5 +1,5 @@
 # Localised-Lo-Resolution-Timezone-Decoder
-...Decode UTC without GSM or the Internet ( non-DST) by Coordinate 
+  ...Decodes UTC without GSM or the Internet ( non-DST) by Coordinate 
 
 - Experimental Lo-Resolution Localized squared Global Timezone decoder for Planet Earth Coordinate including the Antartica V.0.3
 - Valid LAT input between -90(South) to 90(North) Valid LNG in-between -179.99(West) to 180(East)else return Invalid Input.
