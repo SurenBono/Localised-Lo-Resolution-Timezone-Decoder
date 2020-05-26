@@ -206,7 +206,7 @@ void decode(){
 	
 	//(24/38TZ)UTC±0,20+1 Region
 	if(LAT>=  76    && LAT <=  79.2   && LNG <= -15    && LNG >= -22.5   ||LAT>=  63     && LAT <=  90     && LNG <=  7.5    && LNG >= -7.5    ||LAT>=  63      && LAT <=  67     && LNG <= -7.5    && LNG >= -25     ){ UTC=0;}//±0 UTC.R1-3/20
-	if(LAT>=  60    && LAT <=  63     && LNG <=  3.7   && LNG >= -7.5    ||LAT>=  54     && LAT <=  60     && LNG <=  3.7    && LNG >= -11.25  ||LAT>=  54      && LAT <=  57.5   && LNG <=  3.5    && LNG >= -7.5    ){ UTC=0;}//±0 UTC.R4-6/20	
+	if(LAT>=  60    && LAT <=  63     && LNG <=  3.7   && LNG >= -7.5    ||LAT>=  54     && LAT <=  60     && LNG <=  3.7    && LNG >= -11.25  ||LAT>=  54      && LAT <=  57.5   && LNG <=  7.5    && LNG >= 3.5     ){ UTC=0;}//±0 UTC.R4-6/20	
 	if(LAT>=  50    && LAT <=  54     && LNG <=  2.3   && LNG >= -11.25  ||LAT>=  45     && LAT <=  50     && LNG <= -5      && LNG >= -7.5    ||LAT>=  0       && LAT <=  20     && LNG <= -5      && LNG >= -18.75  ){ UTC=0;}//±0 UTC.R7-9/20	
 	if(LAT>=  0     && LAT <=  25     && LNG <=  0     && LNG >= -5      ||LAT>=  14     && LAT <=  21     && LNG <=  4.2    && LNG >=  0      ||LAT>=  6       && LAT <=  14     && LNG <=  1.96   && LNG >=  0      ){ UTC=0;}//±0 UTC.R10-12/20	
 	if(LAT>=  0     && LAT <=  6      && LNG <=  6     && LNG >=  0      ||LAT>=  0      && LAT <=  2.1    && LNG <=  7.5    && LNG >=  6      ||LAT>= -1.5     && LAT <=  0      && LNG <=  5.2    && LNG >= -7.5    ){ UTC=0;}//±0 UTC.R13-15/20	
